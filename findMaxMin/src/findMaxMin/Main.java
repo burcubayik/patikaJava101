@@ -14,10 +14,7 @@ public class Main {
 		for(int i=1; i<=n;i++) {
 			System.out.print(i+ ". Sayıyı giriniz: ");
 			number=input.nextInt();
-			if(max==0&&min==0) {
-				max=number;
-				min=number;
-			}
+	
 			
 			if(max<number) max=number;
 			if(min>number) min=number;
