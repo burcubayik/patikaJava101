@@ -173,6 +173,9 @@ public class Main {
 				case 8:
 					rectangle();
 					break;
+				case 0:
+					break;
+				
 				
 			}
 			
